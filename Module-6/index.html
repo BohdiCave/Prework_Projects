@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+        button {
+            background-color: black;
+            border: 0;
+            margin: 0px 10px;
+            color: white;
+            height: 35px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body onload="draw();">
+
+    <div style="margin-left: 10px; font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Press the buttons to change the box!</div>
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <div class="container">
+        <div class="row" style="margin: 10px 80px;">
+            <div class="column">
+            <button id="button1">Grow</button>
+            <button id="button2">Blue</button>
+            <button id="button3">Fade</button>
+            <button id="button4">Reset</button>
+            </div>
+        </div>
+        <div class="row" style="margin-left: 80px;">
+            <div class="column">
+                <button id="surprise" style="width:310px;">Surprise!</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
